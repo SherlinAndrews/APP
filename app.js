@@ -5,6 +5,13 @@ import { Text, View, StyleSheet, Button } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import Chart from "react-apexcharts";
 import "./App.css";
+import CryptocurrencyTracker from './components/CryptocurrencyTracker'
+
+import './App.css'
+
+const App = () => <CryptocurrencyTracker />
+
+
 
 function App() {
   const [state, setState] = useState({
