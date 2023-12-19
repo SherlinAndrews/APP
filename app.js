@@ -1,10 +1,14 @@
 
 import React, { useState } from "react";
 import { Text, View, StyleSheet, Button } from 'react-native';
-
+import HomeScreen from './components/HomeScreen';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import Chart from "react-apexcharts";
 import "./App.css";
+import HomeLogin from './components/LoginPage/HomeLogin';
+import Signup from './components/LoginPage/Signup';
+import Login from './components/LoginPage/Login';
+import Logout from './components/Logout';
 import CryptocurrencyTracker from './components/CryptocurrencyTracker'
 
 import './App.css'
